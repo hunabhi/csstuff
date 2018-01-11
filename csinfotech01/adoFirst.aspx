@@ -33,19 +33,26 @@
                 </td>
             </tr>
             <tr>
+                <td colspan="2">
+                    <asp:ListBox ID="ListBox1"  runat="server" AutoPostBack="True" OnSelectedIndexChanged="ListBox1_SelectedIndexChanged"></asp:ListBox>
+                </td>
+                
+            </tr>
+            <tr>
                 <td>
         <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="add" />
                 </td>
                 <td style="margin-left: 40px">
         <asp:Button ID="Button2" runat="server" OnClick="Button2_Click" Text="update" />
+                    <br />
                 </td>
             </tr>
             <tr>
                 <td>
-        <asp:Button ID="Button3" runat="server" Text="delete" />
+        <asp:Button ID="Button3" runat="server" Text="delete" OnClick="Button3_Click" style="height: 26px" />
                 </td>
                 <td style="margin-left: 40px">
-        <asp:Button ID="Button4" runat="server" Text="display" />
+        <asp:Button ID="Button4" runat="server" Text="display" OnClick="Button4_Click" />
                 </td>
             </tr>
         </table>
