@@ -54,4 +54,9 @@ public partial class _Default : System.Web.UI.Page
     {
         Response.Redirect("Default2.aspx");
     }
+
+    protected void Button8_Click(object sender, EventArgs e)
+    {
+        Response.Redirect("adoFirst.aspx");
+    }
 }

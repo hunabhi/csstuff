@@ -32,13 +32,16 @@
     
         <br />
         <br />
-        <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/Default2.aspx">HyperLink to page fibonacci</asp:HyperLink>
+        <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/Default2.aspx">HyperLink to page2</asp:HyperLink>
         <br />
         <br />
-        <asp:Button ID="Button7" runat="server" OnClick="Button7_Click" Text="Button" />
+        <asp:Button ID="Button7" runat="server" OnClick="Button7_Click" Text="button to page2" />
     
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <asp:Button ID="Button8" runat="server" OnClick="Button8_Click" Text="ado page" />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         <asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="~/Default3.aspx">click to see a mathematical series</asp:HyperLink>
+        <br />
+        <br />
     
     </div>
     </form>
